@@ -1,0 +1,41 @@
+.background-setup {
+  box-sizing: border-box;
+  margin: auto;
+  border: 5px solid black;
+}
+.content {
+  margin: auto;
+  padding: 0.1em;
+  text-align: center;
+
+  background-color: f7f7f7;
+}
+.left {
+  align-content: left;
+}
+.center {
+  margin-left: 3%;
+  margin-top: 0%;
+  align-items: center;
+  display: inline-table;
+  justify-content: first baseline;
+}
+img {
+  max-width: 30%;
+  min-height: 30%;
+}
+.price h3 h4 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.price h3 {
+  text-align: left;
+  margin: auto;
+  font-family: Tahoma, sans-serif;
+  font-size: large;
+}
+.price h4 {
+  text-align: right;
+  display: inline;
+}
