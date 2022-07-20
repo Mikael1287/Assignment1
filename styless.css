@@ -1,38 +1,38 @@
 body {
-  margin: 1rem;
+  margin: 2rem;
   border: 5px solid black;
+  font-family: "Arial Bold, sans-serif, Helvetica";
 }
 .salebox {
-  display: flexbox;
-  flex-wrap: wrap;
+  display: flex;
   position: absolute;
-  box-sizing: border-box;
-  margin: -1em;
-  padding: 0em 0.8em;
-  margin-left: -1.3em;
+  margin: -1.8em;
+  padding: 0rem 2rem 2.3rem 2rem;
+  margin-left: -1.6em;
   margin-right: 101.9em;
   background-color: red;
   color: white;
   font-family: "Arial, sans-serif";
   font-size: larger;
-  /* align-content: left; */
+  font-weight: bolder;
+  height: 3%;
 }
 header {
   margin: auto;
   padding: 0.1em;
   background-color: #f7f7f7;
   text-align: center;
-  font-family: Arial Narrow Bold, sans-serif, Helvetica, sans-serif;
-
-  /* border: 7px solid pink;
-  box-sizing: border-box;
-  margin: auto; */
-  /* border: 5px solid black; */
+  font-family: Arial Bold, Verdana, sans-serif;
 }
-.left {
-  border: 9px solid black;
-  max-width: 30%;
-  min-height: 30%;
+.grid-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 10px;
+  /* padding: 10px; */
+}
+
+.grid-container > div {
+  font-size: 1.5rem;
 }
 img,
 .left {
@@ -41,43 +41,88 @@ img,
   height: 100%;
 }
 .center {
-  object-fit: cover;
-  position: fixed;
-  /* display: inline; */
-  justify-content: center;
-  max-width: 30%;
-  min-height: 30%;
-  border: 8px solid purple;
+  padding: 2rem;
+  margin-top: 0em;
+  text-align: left;
   align-items: center;
-  margin-top: -25em;
-  margin-left: 28em;
-  margin-right: 25em;
-  width: 100%;
-  height: 50%;
 }
-
 .price {
-  font-family: Tahoma, sans-serif;
-  font-size: large;
+  font-family: "arial bold", sans-serif;
+  font-weight: bold;
+  text-align: left;
 }
-.price < h4 {
-  margin-left: 15rem;
+#shipping {
+  object-fit: cover;
+  margin-left: 60%;
   margin-top: -4rem;
   color: grey;
-  border: 9px solid black;
+  font-size: 1rem;
 }
-.right {
-  display: inline-flex;
-  align-content: flex-end;
-  border: 9px solid black;
+
+.center p {
+  margin: 10% 0 0 0;
+  display: block;
 }
-.cart {
+#moreinfo {
+  color: black;
+  font-size: smaller;
+}
+.right > h3 {
+  font-family: "Arial Bold", Arial, sans-serif;
+}
+.right,
+li {
+  list-style-type: square;
+  margin: 2rem 0;
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+footer {
+  margin-bottom: -1em;
+}
+#cart {
   text-align: center;
   color: white;
   background-color: black;
-  border: 9px solid red;
+  border: 9px solid black;
 }
-.cart:hover {
+#cart:hover {
   color: black;
   background-color: white;
+}
+.colorchoice {
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  /* flex-flow: column; */
+  text-align: justify;
+  vertical-align: top;
+
+  margin: 6rem 0 0 0;
+}
+.box {
+  align-self: center;
+  position: relative;
+  height: 2rem;
+  width: 2rem;
+  margin-bottom: 1em;
+  border: 1px solid gainsboro;
+  clear: both;
+}
+.black {
+  background-color: black;
+}
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: gold;
+}
+.lime {
+  background-color: lime;
+}
+.brown {
+  background-color: brown;
 }
