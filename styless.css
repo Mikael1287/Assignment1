@@ -77,13 +77,13 @@ li {
   font-family: Georgia, Times, "Times New Roman", serif;
 }
 footer {
-  margin-bottom: -1em;
+  margin-bottom: 0em;
+  border: 9px solid black;
 }
 #cart {
   text-align: center;
   color: white;
   background-color: black;
-  border: 9px solid black;
 }
 #cart:hover {
   color: black;
